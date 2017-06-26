@@ -47,9 +47,7 @@
 
                         code =  tinymce.html.Entities.encodeAllRaw(code);
 
-                        var sp = (e.data.addspaces ? '&nbsp;' : '');
-
-                        editor.insertContent(sp + '<pre class="pure-highlightjs"><code class="' + e.data.lang + '">' + code + '</code></pre>' + sp + '<p></p>');
+                        editor.insertContent('<pre><code class="' + e.data.lang + '" data-lang="' + e.data.lang + '">' + code + '</code></pre>');
                     }
                 });
             }

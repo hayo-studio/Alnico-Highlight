@@ -1,3 +1,7 @@
+# Alnico-Highlight
+
+Pure-Highlightjs support to WordPress 4.8, especially Alnico theme.
+
 # Pure-Highlightjs
 
 A lightweight syntax highlighter for WordPress
